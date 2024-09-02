@@ -2,34 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;}
+    font-family: serif;
+}
 body {
     background-image: url(../img/webBackground1.jpeg);
     background-repeat: repeat-x;
-    height: 2000px; }
+    height: 2000px; 
+}
 .overlay {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: rgb(20, 17, 17, 0.4); }
+    background-color: rgb(20, 17, 17, 0.4); 
+}
 .header1 {
     width: 100%;
     height: 90px;
     background-color: palevioletred;
     position: fixed;
-    z-index: 10; }
+    z-index: 10; 
+}
 .content {
     width: 1000px;
     height: 250px;
     position: absolute;
     margin-left: 275px;
     margin-top: 310px;
-    text-align: center; }
+    text-align: center; 
+}
  h2,p {
     text-transform: capitalize;
     font-size: 20px;
     letter-spacing: 1px;
-    color: white; }
+    color: white; 
+ }
 .bttn1 , .bttn2{
     width: 180px;
     height: 60px;
@@ -37,9 +43,12 @@ body {
     border: 0;
     font-size: 20px;
     margin-right: 20px; }
-.bttn1{ background-color: white;}
-.bttn2 { background-color: rgb(217, 112, 147); }
-.bttn2:hover , .bttn1:hover { opacity: 0.8;}
+.bttn1{ 
+    background-color: white;}
+.bttn2 { 
+    background-color: rgb(217, 112, 147); }
+.bttn2:hover , .bttn1:hover { 
+    opacity: 0.8;}
 .header1 ul li {
     display: inline-block;
     font-size: 26px;
@@ -63,7 +72,8 @@ body {
     width: 100%;
     transition: 1s;
     opacity: 1; }
-.header1 ul { position: relative; }
+.header1 ul { 
+    position: relative; }
 .click{
     position: relative;
 }
@@ -303,7 +313,8 @@ visibility: hidden; }
     margin-top: 20px;
     border-radius: 50%;
     float: left;}
-.li11:hover,.li12:hover { background-color: palevioletred; }
+.li11:hover,.li12:hover { 
+	background-color: palevioletred; }
 /***********************************6th**************************************************************/
 .opacity {
     background-image: url(../img/Wallpaper\ \(1\).jpeg);
@@ -476,7 +487,8 @@ visibility: hidden; }
     width: 100%;
     height: 100%;
     transition: 1s;} 
-.y-items:hover .y-p1 {  color: rgb(147, 146, 146);}
+.y-items:hover .y-p1 {  
+	color: rgb(147, 146, 146);}
 .y-items:hover .y-p2 {
     color:palevioletred;}
 .y-icon{
@@ -489,7 +501,8 @@ line-height: 45px;
 display: block;
 font-size: 20px;
 color: white;}
-.y-items:hover .y-icon{  visibility: visible; }
+.y-items:hover .y-icon{  
+	visibility: visible; }
 /**********************************************10th*********************************************************/
 .m-container{
 width: 100%;
@@ -576,4 +589,5 @@ margin: auto;}
 .for-text3 a i{
 color: rgb(253, 169, 183);
 line-height: 80px; }
-.for-text3 a i:hover{ color:rgb(248, 147, 164) ;}
+.for-text3 a i:hover{ 
+	color:rgb(248, 147, 164) ;}
